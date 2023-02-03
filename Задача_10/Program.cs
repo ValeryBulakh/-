@@ -2,8 +2,9 @@
 
 
 Console.Clear();
-Console.WriteLine("введите число");
-int number = int.Parse(Console.ReadLine());
 
-Console.WriteLine($"число {number}");
+Console.WriteLine("введите число");
+
+int number = int.Parse(Console.ReadLine()!);
+
 Console.WriteLine($"вторая цифра {(number % 100 - (number % 100) % 10)/10}");
