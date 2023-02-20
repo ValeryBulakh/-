@@ -21,10 +21,10 @@ int y2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите z2");
 int z2 = Convert.ToInt32(Console.ReadLine());
 
-matchX = Math.Pow(x1-x2,2);
-matchY = Math.Pow(y1-y2,2);
-matchZ = Math.Pow(z1-z2,2);
+matchX = Math.Pow(x1 - x2, 2);
+matchY = Math.Pow(y1 - y2, 2);
+matchZ = Math.Pow(z1 - z2, 2);
 
-double mahch = Math.Sqrt(matchX+matchY+matchZ);
-mahch = Math.Round(mahch,2);
+double mahch = Math.Sqrt(matchX + matchY + matchZ);
+mahch = Math.Round(mahch, 2);
 Console.WriteLine(mahch);
